@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cstdio>
-#define prize 19 //将笔的价格换算为角
+#define PRICE 19 //将笔的价格换算为角
 
 
 using namespace std;
@@ -15,6 +15,6 @@ int main()
   
   int money = a * 10 + b; //将输入价格换算为角
   
-  cout << money / prize << " " <<  money % prize << endl;
+  cout << money / PRICE << " " <<  money % PRICE << endl;
   return 0;
 }
