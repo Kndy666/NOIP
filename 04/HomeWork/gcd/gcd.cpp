@@ -22,7 +22,7 @@ int main()
 
   do
   {
-    tmp= a % b;
+    tmp = a % b;
     a = b;
     b = tmp;
   }while(tmp != 0);
