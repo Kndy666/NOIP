@@ -11,7 +11,11 @@ int main()
   {
     for(int m = 1; m <= i; m++)
     {
-      cout << i << " x " << m << " = " << i * m << " ";
+      cout << m << "*" << i << "=" << i * m << " ";
+      if(i > 2 && i < 5 && m == 2)
+      {
+	cout << " ";
+      }
     }
     cout << endl;
   }
