@@ -8,48 +8,43 @@ int main()
 {
   freopen("isbn.in", "r", stdin);
   freopen("isbn.out", "w", stdout);
-  
-  string isbn, temp;
+
+  string isbn;
   getline(cin, isbn);
-  
-  char read = isbn[isbn.size() - 1];
 
-  int res = 0;
+  int size = isbn.size();
+  int num = 1, res = 0;
 
-  for (int i = 0; i < isbn.size() - 2; i++)
+  for (int i = 0; i < size - 2; i++)
   {
     if (isbn[i] != '-')
     {
-      temp += isbn[i];
+      res += (isbn[i] - '0') * num;
+      num++;
     }
   }
   
-  for (int i = 0; i < temp.size(); i++)
-  {
-    res += (temp[i] - '0') * (i + 1);
-  }
-
   res %= 11;
-  char resChar;
 
-  if (res == 0)
+  char lastNum = isbn[size - 1];
+  char resChar;
+  if (res == 10)
   {
-    resChar = 'X';
-  } 
+   resChar = 'X';
+  }
   else
   {
-    resChar = res + '0';
+   resChar = res + '0';
   }
 
-  if (resChar == read)
+  if (resChar == lastNum)
   {
     cout << "Right" << endl;
   }
   else
   {
-    isbn[isbn.size() - 1] = resChar;
+    isbn[size - 1] = resChar;
     cout << isbn << endl;
   }
-
   return 0;
 }
