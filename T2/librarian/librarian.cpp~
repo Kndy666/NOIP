@@ -1,0 +1,12 @@
+#include <iostream>
+#include <cstdio>
+
+using namespace std;
+
+int main()
+{
+  freopen("librarian.in", "r", stdin);
+  freopen("librarian.out", "w", stdout);
+
+  
+}

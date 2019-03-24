@@ -1,0 +1,12 @@
+#include <iostream>
+#include <cstdio>
+
+using namespace std;
+
+int main()
+{
+  freopen("two.in", "r", stdin);
+  freopen("two.out", "w", stdout);
+
+  
+}

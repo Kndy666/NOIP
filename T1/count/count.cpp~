@@ -1,0 +1,18 @@
+#include <iostream>
+#include <cstdio>
+
+using namespace std;
+
+int a[105], bet[20005], tmp[20005], n, ans = 0;
+
+int main()
+{
+  freopen("count.in", "r", stdin);
+  freopen("count.out", "w", stdout);
+
+  
+  
+  
+
+
+}

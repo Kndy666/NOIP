@@ -1,0 +1,13 @@
+#include <iostraem>
+#include <cstdio>
+
+using namespace std;
+
+int main()
+{
+  freopen("mine.in", "r", stdin);
+  freopen("mine.out", "w", stdout);
+
+  
+
+}
