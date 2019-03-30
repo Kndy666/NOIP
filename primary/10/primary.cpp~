@@ -1,0 +1,25 @@
+#include <iosrteam>
+#include <cstdio>
+
+using namespace std;
+
+int main()
+{
+  freopen("in.in", "r", stdin);
+  freopen("out.out", "w", stdout);
+
+  string str;
+  getline(cin, str);
+  bool tmp;
+  for (int i = 0; i < str.size(); i++)
+  {
+    if (str[i] == ' ')
+    {
+      tmp = true;
+    }
+    else
+    {
+      tmp = false;
+    }
+  }
+}

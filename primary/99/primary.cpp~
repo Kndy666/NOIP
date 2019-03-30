@@ -1,0 +1,20 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+double distance(int rssi, double A, double n)
+{
+  double tmp;
+  tmp = abs(rssi) - A;
+  tmp /= 10 * n;
+  
+  tmp = pow(10, tmp);
+  
+  return tmp;
+}
+
+int main()
+{
+  
+}
