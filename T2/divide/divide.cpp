@@ -37,7 +37,7 @@ int main()
 
   sort(arr, arr + n, cmp);
 
-  int scoreLine = arr[pos].score;
+  int scoreLine = arr[pos - 1].score;
 
   for (int i = 0; i < n; i++)if (arr[i].score >= scoreLine)ans++;
 
