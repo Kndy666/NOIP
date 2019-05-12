@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  int ans = 0, a;
+  cin >> a;
+  
+  char sign;
+
+  while (cin >> sign)
+  {
+    ans += a;
+    cin >> a;
+  }
+
+  cout << ans << endl;
+  return 0;
+}

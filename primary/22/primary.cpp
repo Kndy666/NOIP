@@ -1,6 +1,5 @@
 #include <iostream>
 #include <cstdio>
-#include <iomanip>
 
 using namespace std;
 
@@ -21,7 +20,8 @@ int main()
   }
 
   sum /= length;
-  
-  cout << setprecision(2) << fixed << sum << endl;
+
+  printf("%.2f", sum);
+  cout << endl;
   return 0;
 }
