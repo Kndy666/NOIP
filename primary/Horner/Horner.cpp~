@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+double f (int n, double a[], double x){//n代表a[]的大小，数组的传递需要指定数组大小
+    int i;                           //a[]储存每个x项的系数值，在函数外初始化
+    double p = a[n];//初始化p；
+    for(i = n; i > 0; i--)
+        p = a[i - 1] + x * p;
+    return p;
+}
+
+int main()
+{
+  
+
+
+
+}
