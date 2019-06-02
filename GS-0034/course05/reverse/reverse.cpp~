@@ -1,0 +1,22 @@
+#include <iostream>
+#include <cstdio>
+
+using namespace std;
+
+int main()
+{
+  freopen("reverse.in", "r", stdin);
+  freopen("reverse.out", "w", stdout);
+
+  int num;
+  cin >> num;
+
+}
+int getNum(int num)
+{
+  int n;
+  while(num > n)
+  {
+
+  }
+}

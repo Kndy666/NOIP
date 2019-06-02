@@ -1,0 +1,10 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  int list1[4] = {0, 1, 2, 3, 4};
+  double list2[4] = {0.1, 0.2, 0.3, 0.4, 0.5};
+  char list3[4] = {'a', 'b', 'c', 'd', 'e'};
+}

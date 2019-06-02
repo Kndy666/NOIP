@@ -1,0 +1,28 @@
+#include <iostream>
+#include <cstdio>
+
+using namespace std;
+
+int main()
+{
+  freopen("array1.in", "r", stdin);
+  freopen("array1.out", "w", stdout);
+  
+  int numList[3][2];
+
+  for (int i = 0; i < 3; i++)
+  {
+    for (int m = 0; m < 2; m++)
+    {
+      cin >> numList[i][m];
+    }
+  }
+ 
+  for (int i = 0; i < 3; i++)
+  {
+    for (int m = 0; m < 2; m++)
+    {
+      cout << numList[i][m];
+    }
+  }
+}

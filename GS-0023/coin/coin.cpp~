@@ -1,0 +1,29 @@
+#include <iostream>
+#include <cstdio>
+
+using namespace std;
+
+int main()
+{
+  freopen("coin.in", "r", stdin);
+  freopen("coin.out", "w"m stdout);
+  
+  int days;
+  int n = 1;
+  int j = 1;
+
+  cin >> days;
+
+  int coin = 0;
+
+  for (int i = 0; i < days; i++)
+  {
+    for (int t = 0; t < n; t++)
+    {
+      coin += j;
+    }
+    j++;
+    n++;
+  }
+  return 0;
+}

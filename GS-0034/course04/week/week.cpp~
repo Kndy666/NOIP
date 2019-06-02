@@ -1,0 +1,23 @@
+#include <iostream>
+#include <cstdio>
+
+using namespace std;
+
+int main()
+{
+  freopen("week.in", "r", stdin);
+  freopen("week.out", "w", stdout);
+
+  int a;
+  cin >> a;
+
+  switch(a)
+  {
+  case 1:
+    cout << "Monday" << endl;
+    break;
+  case 2:
+    cout << "Monday" << endl;
+    break;
+  }
+}

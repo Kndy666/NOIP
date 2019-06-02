@@ -1,0 +1,35 @@
+#include <iostream>
+#include <cstdio>
+
+using namespace std;
+
+int main()
+{
+  freopen("matrix.in", "r", stdin);
+  freopen("matrix.out", "w", stdout);
+
+  int size;
+  cin >> size;
+  
+  int matrix[size - 1][size - 1];
+  
+  for (int i = 0; i < size - 1; i++)
+  {
+    for (int m = 0; m < size -1; m++)
+    {
+      matrix[i][m] = i + m + 2; 
+    }
+  }
+  
+  for (int i = 0; i < size - 1; i++)
+  {
+    for (int m = 0; m < size -1; m++)
+    {
+      cout << matrix[i][m] << " ";
+    }
+    cout << endl;
+  }
+
+  return 0;
+}
+
