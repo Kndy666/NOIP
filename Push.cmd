@@ -1,3 +1,4 @@
+@echo off
 cd %cd%
 git init
 git checkout -b master
