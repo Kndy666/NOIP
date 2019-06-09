@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  double num, ans = 0;
+  cin >> num;
+
+  if (0 < num && num <= 10)printf("%.2f", 0.2 + 0.8 * num);
+  else if (10 < num && num <= 20)printf("&.2f", 0.7 + 0.75 * num);
+  else if (20 < num && num <= 30)printf("%.2f", 1.7 + 0.7 * num);
+  else cout << "Fail" << endl;
+
+}
