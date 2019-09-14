@@ -1,0 +1,22 @@
+#include<iostream>
+#include<cstdio>
+#include<algorithm>
+using namespace std;
+
+Bool Cmp(int a,int b)
+{
+  return a<b;
+}
+
+int main()
+{
+  freopen("sortque.in","r",stdin);
+  freopen("sortque.in","w",stdout);
+  int n,m,td[2005];
+  cin >> n >> m;
+  for(int i=0;i<n+m;i++)
+  {
+    cin >> td[i];
+  }
+  
+}

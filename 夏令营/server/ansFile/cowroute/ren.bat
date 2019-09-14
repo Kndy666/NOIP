@@ -1,0 +1,1 @@
+ren *.out *.ans
