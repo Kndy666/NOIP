@@ -26,6 +26,6 @@ int main()
 		cout << b[i] << endl << a[i] << endl;  
 	}
 	
-	if(n % 2 == 1)cout << a[n / 2 + 1] << endl;
+	if(n % 2 == 1)cout << b[n / 2] << endl;
 	
 }
